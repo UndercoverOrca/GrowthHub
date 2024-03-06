@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GrowthHub.WebUi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GrowthHub.WebUi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GrowthHub.WebUi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GrowthHub.WebUi.props",
+      "PackagePath": "build\\GrowthHub.WebUi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GrowthHub.WebUi.props",
+      "PackagePath": "buildMultiTargeting\\GrowthHub.WebUi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GrowthHub.WebUi.props",
+      "PackagePath": "buildTransitive\\GrowthHub.WebUi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

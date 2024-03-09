@@ -1128,6 +1128,29 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "GrowthHub.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GrowthHub.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrowthHub.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrowthHub.Application.dll": {}
+        }
+      },
+      "GrowthHub.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GrowthHub.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrowthHub.Domain.dll": {}
+        }
       }
     }
   },
@@ -2761,10 +2784,21 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "GrowthHub.Application/1.0.0": {
+      "type": "project",
+      "path": "../GrowthHub.Application/GrowthHub.Application.csproj",
+      "msbuildProject": "../GrowthHub.Application/GrowthHub.Application.csproj"
+    },
+    "GrowthHub.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GrowthHub.Domain/GrowthHub.Domain.csproj",
+      "msbuildProject": "../GrowthHub.Domain/GrowthHub.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GrowthHub.Application >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.2",
@@ -2797,7 +2831,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Application\\GrowthHub.Application.csproj": {
+              "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Application\\GrowthHub.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

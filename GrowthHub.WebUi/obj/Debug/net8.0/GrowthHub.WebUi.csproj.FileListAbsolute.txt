@@ -132,3 +132,4 @@ C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\obj\Debug\net8.0\refint\Gr
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\obj\Debug\net8.0\GrowthHub.WebUi.pdb
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\obj\Debug\net8.0\GrowthHub.WebUi.genruntimeconfig.cache
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\obj\Debug\net8.0\ref\GrowthHub.WebUi.dll
+C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\obj\Debug\net8.0\GrowthHub.WebUi.sourcelink.json

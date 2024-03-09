@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\GrowthHub.Domain\GrowthHub.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

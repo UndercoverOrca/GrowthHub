@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrowthHub.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f30b037907c217787ed7f2760dc024e695b88f54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+865345c91d7277bc87f58d41b6ef43e4565261d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrowthHub.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrowthHub.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

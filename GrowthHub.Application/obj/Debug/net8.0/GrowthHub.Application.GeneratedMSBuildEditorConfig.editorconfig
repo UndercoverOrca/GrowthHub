@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GrowthHub.Application
-build_property.ProjectDir = c:\Users\timno\source\repos\GrowthHub\GrowthHub.Application\
+build_property.ProjectDir = C:\Users\timno\source\repos\GrowthHub\GrowthHub.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

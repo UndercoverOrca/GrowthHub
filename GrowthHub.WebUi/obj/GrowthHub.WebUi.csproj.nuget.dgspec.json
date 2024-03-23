@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -98,6 +98,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,18 +124,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj": {
+    "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\GrowthHub.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj",
-        "projectName": "GrowthHub.WebUi",
-        "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj",
+        "projectUniqueName": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\GrowthHub.Infrastructure.csproj",
+        "projectName": "GrowthHub.Infrastructure",
+        "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\GrowthHub.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\timno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\obj\\",
+        "outputPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\timno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,11 +168,91 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj",
+        "projectName": "GrowthHub.WebUi",
+        "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\GrowthHub.WebUi.csproj",
+        "packagesPath": "C:\\Users\\timno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.WebUi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\timno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Application\\GrowthHub.Application.csproj": {
+                "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Application\\GrowthHub.Application.csproj"
+              },
+              "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\GrowthHub.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Infrastructure\\GrowthHub.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
@@ -173,6 +263,22 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -194,7 +300,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

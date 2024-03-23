@@ -1,12 +1,12 @@
+using GrowthHub.Domain;
 using Microsoft.AspNetCore.Identity;
-using GrowthHub.WebUi.Data;
 
 namespace GrowthHub.WebUi.Components.Account;
 
-internal sealed class IdentityUserAccessor(UserManager<ApplicationUser> userManager,
+internal sealed class IdentityUserAccessor(UserManager<User> userManager,
     IdentityRedirectManager redirectManager)
 {
-    public async Task<ApplicationUser> GetRequiredUserAsync(HttpContext context)
+    public async Task<User> GetRequiredUserAsync(HttpContext context)
     {
         var user = await userManager.GetUserAsync(context.User);
 

@@ -7,4 +7,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Identity.Stores">
+        <HintPath>..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\8.0.2\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LanguageExt.Core" Version="4.4.8" />
+      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.2" />
+    </ItemGroup>
+
 </Project>

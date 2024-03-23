@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrowthHub.WebUi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43f51170d202c1b31e8807ce6e35ee6eacafaf4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+095f0244e1018b234fbd19591d4ddb7ab8abc45f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrowthHub.WebUi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrowthHub.WebUi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

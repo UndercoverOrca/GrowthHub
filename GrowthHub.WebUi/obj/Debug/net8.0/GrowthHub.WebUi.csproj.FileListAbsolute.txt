@@ -143,3 +143,4 @@ C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\bin\Debug\net8.0\GrowthHub
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\bin\Debug\net8.0\GrowthHub.Domain.dll
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\bin\Debug\net8.0\GrowthHub.Application.pdb
 C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\bin\Debug\net8.0\GrowthHub.Domain.pdb
+C:\Users\timno\source\repos\GrowthHub\GrowthHub.WebUi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

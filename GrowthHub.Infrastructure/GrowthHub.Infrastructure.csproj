@@ -15,7 +15,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\GrowthHub.Application\GrowthHub.Application.csproj" />
-      <ProjectReference Include="..\GrowthHub.WebUi\GrowthHub.WebUi.csproj" />
     </ItemGroup>
 
 </Project>

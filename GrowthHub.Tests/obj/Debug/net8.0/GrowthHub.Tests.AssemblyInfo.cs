@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrowthHub.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d326b9f6cdfc601cdf359639fe37197e3e2060d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eb65e82d5842e5f01c17dec0816b6cf54882f42")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrowthHub.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrowthHub.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

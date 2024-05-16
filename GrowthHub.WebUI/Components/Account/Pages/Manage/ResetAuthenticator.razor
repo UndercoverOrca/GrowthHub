@@ -1,10 +1,11 @@
 ﻿@page "/Account/Manage/ResetAuthenticator"
 
+@using GrowthHub.Domain
+@using GrowthHub.Infrastructure
 @using Microsoft.AspNetCore.Identity
-@using GrowthHub.WebUI.Data
 
-@inject UserManager<ApplicationUser> UserManager
-@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<User> UserManager
+@inject SignInManager<User> SignInManager
 @inject IdentityUserAccessor UserAccessor
 @inject IdentityRedirectManager RedirectManager
 @inject ILogger<ResetAuthenticator> Logger

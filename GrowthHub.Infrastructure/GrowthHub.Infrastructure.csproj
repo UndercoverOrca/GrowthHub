@@ -17,4 +17,9 @@
       <ProjectReference Include="..\GrowthHub.Application\GrowthHub.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+    </ItemGroup>
+
 </Project>

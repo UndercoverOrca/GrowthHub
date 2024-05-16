@@ -1,7 +1,8 @@
-﻿@using Microsoft.AspNetCore.Identity
-@using GrowthHub.WebUI.Data
+﻿@using GrowthHub.Domain
+@using GrowthHub.Infrastructure
+@using Microsoft.AspNetCore.Identity
 
-@inject SignInManager<ApplicationUser> SignInManager
+@inject SignInManager<User> SignInManager
 
 <ul class="nav nav-pills flex-column">
     <li class="nav-item">

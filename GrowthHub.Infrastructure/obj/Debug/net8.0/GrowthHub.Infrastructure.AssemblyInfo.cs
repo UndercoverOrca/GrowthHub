@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrowthHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+561dcdef8aabff3d57be861ca6d4368febabc8c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6246aa57f6f1552134a12d4d7c8009ff5559efb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrowthHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrowthHub.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

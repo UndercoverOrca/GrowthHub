@@ -8,19 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\timno\\.nuget\\packages\\": {}
+    "C:\\Users\\tvdnol\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Domain\\GrowthHub.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\tvdnol\\source\\repos\\Private\\GrowthHub\\GrowthHub.Domain\\GrowthHub.Domain.csproj",
       "projectName": "GrowthHub.Domain",
-      "projectPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Domain\\GrowthHub.Domain.csproj",
-      "packagesPath": "C:\\Users\\timno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timno\\source\\repos\\GrowthHub\\GrowthHub.Domain\\obj\\",
+      "projectPath": "C:\\Users\\tvdnol\\source\\repos\\Private\\GrowthHub\\GrowthHub.Domain\\GrowthHub.Domain.csproj",
+      "packagesPath": "C:\\Users\\tvdnol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tvdnol\\source\\repos\\Private\\GrowthHub\\GrowthHub.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\timno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tvdnol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +32,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/vicompany/_packaging/nuget-feed/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

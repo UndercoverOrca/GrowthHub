@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace GrowthHub.Domain;
 
-public class User : IdentityUser
+public class User : IdentityUser<Guid>
 {
     public Guid Guid { get; set; }
     
